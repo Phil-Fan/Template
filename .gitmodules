@@ -10,3 +10,6 @@
 [submodule "reveal-md"]
 	path = reveal-md
 	url = https://github.com/Phil-Fan/reveal-md.git
+[submodule "PPT"]
+	path = PPT
+	url = https://github.com/Phil-Fan/PPT
