@@ -1,12 +1,12 @@
 [submodule "beamer"]
 	path = beamer
 	url = https://github.com/qychen2001/ZJU-Beamer-Template
-[submodule "reveal-md"]
-	path = reveal-md
-	url = https://github.com/TonyCrane/slide-template
 [submodule "latex_exp"]
 	path = latex_exp
 	url = https://github.com/Phil-Fan/Latex_exp
 [submodule "typora_latex"]
 	path = typora_latex
 	url = https://github.com/Keldos-Li/typora-latex-theme
+[submodule "reveal-md"]
+	path = reveal-md
+	url = https://github.com/Phil-Fan/reveal-md.git
