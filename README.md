@@ -8,6 +8,19 @@
 
 这个仓库收集了一些我常用的模板，包括 LaTeX、Markdown等。
 
+[TOC]
+
+## Quick Start
+
+```bash
+git clone https://github.com/Phil-Fan/Template.git
+cd Template
+```
+
+```bash
+git submodule update --init --recursive
+```
+
 ## 报告
 
 - [Phil-Fan/Latex_exp](https://github.com/Phil-Fan/Latex_exp/tree/main): 是我自己魔改的 LaTeX 论文模板，支持多章节独立编译和管理。
