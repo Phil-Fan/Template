@@ -21,6 +21,28 @@ cd Template
 git submodule update --init --recursive
 ```
 
+交互式选择模板：
+
+```bash
+python init.py
+```
+
+构建模板：
+
+```bash
+# 命令行选择 latex_exp + beamer
+python init.py --report latex_exp --slide beamer
+
+# 选择 markdown + reveal-md，指定路径
+python init.py --report markdown_template --slide reveal-md --target ~/my_project
+
+# 只选择 slide
+python init.py --slide beamer --target ~/presentation
+
+# 选择 PPT 模板
+python init.py --slide ppt --ppt-template beamer_type.pptx --target ~/presentation
+```
+
 ## 报告
 
 - [Phil-Fan/Latex_exp](https://github.com/Phil-Fan/Latex_exp/tree/main): 是我自己魔改的 LaTeX 论文模板，支持多章节独立编译和管理。
